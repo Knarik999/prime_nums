@@ -1,12 +1,15 @@
 {
-  "name": "Homework3",
+  "name": "Prime numbers",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "pmNums.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Edgar Hakobkekhvyan",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
