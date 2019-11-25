@@ -15,25 +15,13 @@ function isPrime (n) {
 }
 
 module.exports = {
-  getPrimes: function(n1,n2){
-    if(n1 > 0 && n2 > 0) {
-      let primes = [];
-
-      for (let i = n1; i <= n2; i++) {
-        if(isPrime(i)) {
-          primes.push(i)
-        }
-      }
-      return primes;
-    }
-  },
-
   printElems: function (ary) {
     if(!ary.length){
-      console.log("Prime numbers missing! Finder gets some amount of money!");
+      console.log("there are no prime numbers in this range");
     }else{
       for(let i = 0; i < ary.length; i++)
         console.log(ary[i]);
     }
-  }
+  },
+  isPrime
 }
